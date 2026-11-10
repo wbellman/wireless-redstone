@@ -41,6 +41,28 @@ jobs:
     permissions:
       contents: write
     steps:
+      - uses: actions/checkout@v4
+
+      # The tag (v0.1.0) must match mod_version; the release notes are that version's
+      # section of CHANGELOG.md.
+      - name: Check the version and extract release notes
+        id: notes
+        run: |
+          version="${GITHUB_REF_NAME#v}"
+          declared="$(grep '^mod_version=' gradle.properties | cut -d= -f2 | tr -d '\r')"
+          if [ "$declared" != "$version" ]; then
+            echo "::error::Tag says ${version} but gradle.properties has mod_version=${declared}"; exit 1
+          fi
+          awk -v v="$version" '
+            index($0, "## [" v "]") == 1 { found = 1; next }
+            /^## \[/ { found = 0 }
+            found && !/^\[[^]]+\]: / { print }
+          ' CHANGELOG.md > release-notes.md
+          if [ ! -s release-notes.md ]; then
+            echo "::error::No '## [${version}]' section in CHANGELOG.md"; exit 1
+          fi
+          echo "title=Wireless Redstone ${version}" >> "$GITHUB_OUTPUT"
+
       - uses: actions/download-artifact@v4
         with:
           name: wireless-redstone
@@ -48,5 +70,6 @@ jobs:
 
       - uses: softprops/action-gh-release@v2
         with:
+          name: ${{ steps.notes.outputs.title }}
+          body_path: release-notes.md
           files: dist/*.jar
-          generate_release_notes: true
