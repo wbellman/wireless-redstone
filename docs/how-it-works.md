@@ -58,9 +58,10 @@ Every panel is either floor-mounted or wall/ceiling-mounted.
 
 - Each change takes a **fixed 2 game ticks** (one repeater tick) from a transmitter's input
   changing to its receivers' output changing, regardless of distance.
-- Panels update on scheduled ticks and never update each other recursively. A receiver wired
-  back into a transmitter on its own channel therefore behaves like a clock or a latch, never a
-  crash or a stack overflow.
+- Panels update on scheduled ticks and never update each other recursively, so feedback loops
+  are safe. A receiver wired straight back into a transmitter on its own channel **latches**:
+  once the channel is triggered it stays on, until the loop is broken (for example by removing
+  the transmitter or one of its dyes).
 
 ## Feedback on the block
 

@@ -35,7 +35,7 @@ import systems.acolyte.games.wirelessredstone.config.WirelessConfig;
  * </ul>
  *
  * Changes never update blocks directly: listeners get a scheduled tick, which keeps the
- * delay fixed and makes feedback loops behave like clocks instead of recursing.
+ * delay fixed and means feedback loops settle (a direct loop latches) instead of recursing.
  */
 public final class ChannelNetwork extends SavedData {
 	private static final Codec<Source> SOURCE_CODEC = RecordCodecBuilder.create(i -> i.group(

@@ -25,8 +25,8 @@ carry full signal strength across any distance in a dimension.
 - **Analog signal** — strength 0–15 carries across; a receiver outputs the strongest
   transmitter on its channel.
 - **Predictable timing** — a fixed 2-game-tick delay (one repeater tick) at any distance.
-- **Safe feedback loops** — wiring a receiver back into its own transmitter makes a clock, not
-  a crash.
+- **Safe feedback loops** — wiring a receiver back into its own transmitter latches on instead
+  of crashing.
 - **At-a-glance status** — a green antenna light while the channel carries a signal, and a
   five-LED strength gauge.
 - **Wireless Remote** — copy a panel's channel, then right-click anywhere for a one-second pulse.
