@@ -1,0 +1,10 @@
+{
+  "block.wireless_redstone.wireless_panel": "Wireless Panel",
+  "item.wireless_redstone.remote": "Wireless Remote",
+  "wireless_redstone.channel.none": "None",
+  "wireless_redstone.remote.channel": "Channel: %s",
+  "wireless_redstone.remote.how_to_set": "Right-click a panel to set its channel",
+  "wireless_redstone.remote.copied": "Remote set to %s",
+  "wireless_redstone.remote.no_channel": "No channel: right-click a panel to copy its channel",
+  "wireless_redstone.remote.panel_has_no_channel": "That panel has no channel yet (it needs three dyes)"
+}

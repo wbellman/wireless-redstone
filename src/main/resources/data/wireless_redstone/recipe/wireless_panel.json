@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "T": "minecraft:redstone_torch",
+    "Q": "minecraft:quartz",
+    "I": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    " T ",
+    " Q ",
+    "III"
+  ],
+  "result": {
+    "id": "wireless_redstone:wireless_panel"
+  }
+}

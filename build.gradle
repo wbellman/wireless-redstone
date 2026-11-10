@@ -1,0 +1,86 @@
+// Wireless Redstone: a Fabric mod for Minecraft. Versions live in gradle.properties.
+//   ./gradlew build              compile, run the headless game tests, build the jar (build/libs/)
+//   ./gradlew runClient          launch Minecraft with the mod
+//   ./gradlew runGameTest        headless logic tests only
+//   ./gradlew runClientGameTest  open the game, build a showcase scene and save screenshots
+plugins {
+	id 'net.fabricmc.fabric-loom' version "${loom_version}"
+}
+
+group = project.maven_group
+version = project.mod_version
+
+base {
+	archivesName = project.mod_id
+}
+
+loom {
+	// Client-only code (rendering) lives in src/client so the server never loads it.
+	splitEnvironmentSourceSets()
+
+	mods {
+		"${project.mod_id}" {
+			sourceSet sourceSets.main
+			sourceSet sourceSets.client
+		}
+	}
+}
+
+dependencies {
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+}
+
+// Game tests live in src/gametest as a separate test mod (wireless_redstone_test).
+fabricApi {
+	configureTests {
+		createSourceSet = true
+		modId = "wireless_redstone_test"
+		enableGameTests = true
+		enableClientGameTests = true
+		eula = true
+	}
+}
+
+// Channel state is saved with the world, so start every test run from a fresh world.
+def gameTestWorld = file("build/run/gameTest/world")
+tasks.named("runGameTest") {
+	doFirst {
+		gameTestWorld.deleteDir()
+	}
+}
+
+processResources {
+	def props = [
+		mod_id           : project.mod_id,
+		mod_name         : project.mod_name,
+		mod_description  : project.mod_description,
+		mod_author       : project.mod_author,
+		version          : project.version,
+		loader_version   : project.loader_version,
+		minecraft_version: project.minecraft_version,
+		java_version     : project.java_version,
+	]
+	inputs.properties props
+
+	filesMatching('fabric.mod.json') {
+		expand props
+	}
+}
+
+java {
+	withSourcesJar()
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = project.java_version as int
+	it.options.encoding = 'UTF-8'
+}
+
+jar {
+	// Ship the license with the jar, as the LGPL asks.
+	from(['COPYING', 'COPYING.LESSER']) {
+		into "META-INF/licenses/${project.mod_id}"
+	}
+}

@@ -1,0 +1,68 @@
+{
+  "parent": "minecraft:block/thin_block",
+  "textures": {
+    "particle": "wireless_redstone:block/panel",
+    "light": "wireless_redstone:block/light_off"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        2,
+        11
+      ],
+      "to": [
+        4,
+        3,
+        13
+      ],
+      "faces": {
+        "up": {
+          "texture": "#light",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ]
+        },
+        "north": {
+          "texture": "#light",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ]
+        },
+        "south": {
+          "texture": "#light",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ]
+        },
+        "east": {
+          "texture": "#light",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ]
+        },
+        "west": {
+          "texture": "#light",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ]
+        }
+      }
+    }
+  ]
+}

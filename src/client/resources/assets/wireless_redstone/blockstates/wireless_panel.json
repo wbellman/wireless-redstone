@@ -1,0 +1,2744 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "face": "floor",
+        "facing": "north",
+        "mode": "transmitter"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_base_transmitter"
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "north",
+        "mode": "receiver"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_base_receiver"
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "north",
+        "power": "0"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_0"
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "north",
+        "power": "1"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_1"
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "north",
+        "power": "2"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_2"
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "north",
+        "power": "3"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_3"
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "north",
+        "power": "4"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_4"
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "north",
+        "power": "5"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_5"
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "north",
+        "power": "6"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_6"
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "north",
+        "power": "7"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_7"
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "north",
+        "power": "8"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_8"
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "north",
+        "power": "9"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_9"
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "north",
+        "power": "10"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_10"
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "north",
+        "power": "11"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_11"
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "north",
+        "power": "12"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_12"
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "north",
+        "power": "13"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_13"
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "north",
+        "power": "14"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_14"
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "north",
+        "power": "15"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_15"
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "north",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_light_on"
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "north",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_light_off"
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "east",
+        "mode": "transmitter"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_base_transmitter",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "east",
+        "mode": "receiver"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_base_receiver",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "east",
+        "power": "0"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_0",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "east",
+        "power": "1"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "east",
+        "power": "2"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "east",
+        "power": "3"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "east",
+        "power": "4"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_4",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "east",
+        "power": "5"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_5",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "east",
+        "power": "6"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_6",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "east",
+        "power": "7"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_7",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "east",
+        "power": "8"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_8",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "east",
+        "power": "9"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_9",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "east",
+        "power": "10"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_10",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "east",
+        "power": "11"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_11",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "east",
+        "power": "12"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_12",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "east",
+        "power": "13"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_13",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "east",
+        "power": "14"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_14",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "east",
+        "power": "15"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_15",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "east",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_light_on",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "east",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_light_off",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "south",
+        "mode": "transmitter"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_base_transmitter",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "south",
+        "mode": "receiver"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_base_receiver",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "south",
+        "power": "0"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_0",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "south",
+        "power": "1"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "south",
+        "power": "2"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "south",
+        "power": "3"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "south",
+        "power": "4"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_4",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "south",
+        "power": "5"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_5",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "south",
+        "power": "6"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_6",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "south",
+        "power": "7"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_7",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "south",
+        "power": "8"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_8",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "south",
+        "power": "9"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_9",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "south",
+        "power": "10"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_10",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "south",
+        "power": "11"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_11",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "south",
+        "power": "12"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_12",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "south",
+        "power": "13"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_13",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "south",
+        "power": "14"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_14",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "south",
+        "power": "15"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_15",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "south",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_light_on",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "south",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_light_off",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "west",
+        "mode": "transmitter"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_base_transmitter",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "west",
+        "mode": "receiver"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_base_receiver",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "west",
+        "power": "0"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_0",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "west",
+        "power": "1"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "west",
+        "power": "2"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "west",
+        "power": "3"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "west",
+        "power": "4"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_4",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "west",
+        "power": "5"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_5",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "west",
+        "power": "6"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_6",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "west",
+        "power": "7"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_7",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "west",
+        "power": "8"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_8",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "west",
+        "power": "9"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_9",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "west",
+        "power": "10"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_10",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "west",
+        "power": "11"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_11",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "west",
+        "power": "12"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_12",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "west",
+        "power": "13"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_13",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "west",
+        "power": "14"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_14",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "west",
+        "power": "15"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_15",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "west",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_light_on",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "floor",
+        "facing": "west",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_light_off",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "north",
+        "mode": "transmitter"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_base_transmitter",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "north",
+        "mode": "receiver"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_base_receiver",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "north",
+        "power": "0"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_0",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "north",
+        "power": "1"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_1",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "north",
+        "power": "2"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_2",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "north",
+        "power": "3"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_3",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "north",
+        "power": "4"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_4",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "north",
+        "power": "5"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_5",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "north",
+        "power": "6"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_6",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "north",
+        "power": "7"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_7",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "north",
+        "power": "8"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_8",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "north",
+        "power": "9"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_9",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "north",
+        "power": "10"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_10",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "north",
+        "power": "11"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_11",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "north",
+        "power": "12"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_12",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "north",
+        "power": "13"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_13",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "north",
+        "power": "14"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_14",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "north",
+        "power": "15"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_15",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "north",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_light_on",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "north",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_light_off",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "east",
+        "mode": "transmitter"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_base_transmitter",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "east",
+        "mode": "receiver"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_base_receiver",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "east",
+        "power": "0"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_0",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "east",
+        "power": "1"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_1",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "east",
+        "power": "2"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_2",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "east",
+        "power": "3"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_3",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "east",
+        "power": "4"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_4",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "east",
+        "power": "5"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_5",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "east",
+        "power": "6"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_6",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "east",
+        "power": "7"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_7",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "east",
+        "power": "8"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_8",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "east",
+        "power": "9"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_9",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "east",
+        "power": "10"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_10",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "east",
+        "power": "11"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_11",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "east",
+        "power": "12"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_12",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "east",
+        "power": "13"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_13",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "east",
+        "power": "14"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_14",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "east",
+        "power": "15"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_15",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "east",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_light_on",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "east",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_light_off",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "south",
+        "mode": "transmitter"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_base_transmitter",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "south",
+        "mode": "receiver"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_base_receiver",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "south",
+        "power": "0"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_0",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "south",
+        "power": "1"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_1",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "south",
+        "power": "2"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_2",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "south",
+        "power": "3"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_3",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "south",
+        "power": "4"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_4",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "south",
+        "power": "5"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_5",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "south",
+        "power": "6"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_6",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "south",
+        "power": "7"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_7",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "south",
+        "power": "8"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_8",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "south",
+        "power": "9"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_9",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "south",
+        "power": "10"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_10",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "south",
+        "power": "11"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_11",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "south",
+        "power": "12"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_12",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "south",
+        "power": "13"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_13",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "south",
+        "power": "14"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_14",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "south",
+        "power": "15"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_15",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "south",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_light_on",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "south",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_light_off",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "west",
+        "mode": "transmitter"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_base_transmitter",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "west",
+        "mode": "receiver"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_base_receiver",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "west",
+        "power": "0"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_0",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "west",
+        "power": "1"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_1",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "west",
+        "power": "2"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_2",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "west",
+        "power": "3"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_3",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "west",
+        "power": "4"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_4",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "west",
+        "power": "5"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_5",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "west",
+        "power": "6"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_6",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "west",
+        "power": "7"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_7",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "west",
+        "power": "8"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_8",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "west",
+        "power": "9"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_9",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "west",
+        "power": "10"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_10",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "west",
+        "power": "11"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_11",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "west",
+        "power": "12"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_12",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "west",
+        "power": "13"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_13",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "west",
+        "power": "14"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_14",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "west",
+        "power": "15"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_15",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "west",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_light_on",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "wall",
+        "facing": "west",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_light_off",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "north",
+        "mode": "transmitter"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_base_transmitter",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "north",
+        "mode": "receiver"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_base_receiver",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "north",
+        "power": "0"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_0",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "north",
+        "power": "1"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_1",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "north",
+        "power": "2"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_2",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "north",
+        "power": "3"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_3",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "north",
+        "power": "4"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_4",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "north",
+        "power": "5"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_5",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "north",
+        "power": "6"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_6",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "north",
+        "power": "7"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_7",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "north",
+        "power": "8"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_8",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "north",
+        "power": "9"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_9",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "north",
+        "power": "10"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_10",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "north",
+        "power": "11"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_11",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "north",
+        "power": "12"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_12",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "north",
+        "power": "13"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_13",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "north",
+        "power": "14"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_14",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "north",
+        "power": "15"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_15",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "north",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_light_on",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "north",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_light_off",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "east",
+        "mode": "transmitter"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_base_transmitter",
+        "x": 180,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "east",
+        "mode": "receiver"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_base_receiver",
+        "x": 180,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "east",
+        "power": "0"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_0",
+        "x": 180,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "east",
+        "power": "1"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_1",
+        "x": 180,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "east",
+        "power": "2"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_2",
+        "x": 180,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "east",
+        "power": "3"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_3",
+        "x": 180,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "east",
+        "power": "4"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_4",
+        "x": 180,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "east",
+        "power": "5"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_5",
+        "x": 180,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "east",
+        "power": "6"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_6",
+        "x": 180,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "east",
+        "power": "7"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_7",
+        "x": 180,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "east",
+        "power": "8"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_8",
+        "x": 180,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "east",
+        "power": "9"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_9",
+        "x": 180,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "east",
+        "power": "10"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_10",
+        "x": 180,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "east",
+        "power": "11"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_11",
+        "x": 180,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "east",
+        "power": "12"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_12",
+        "x": 180,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "east",
+        "power": "13"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_13",
+        "x": 180,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "east",
+        "power": "14"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_14",
+        "x": 180,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "east",
+        "power": "15"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_15",
+        "x": 180,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "east",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_light_on",
+        "x": 180,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "east",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_light_off",
+        "x": 180,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "south",
+        "mode": "transmitter"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_base_transmitter",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "south",
+        "mode": "receiver"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_base_receiver",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "south",
+        "power": "0"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_0",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "south",
+        "power": "1"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_1",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "south",
+        "power": "2"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_2",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "south",
+        "power": "3"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_3",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "south",
+        "power": "4"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_4",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "south",
+        "power": "5"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_5",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "south",
+        "power": "6"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_6",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "south",
+        "power": "7"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_7",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "south",
+        "power": "8"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_8",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "south",
+        "power": "9"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_9",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "south",
+        "power": "10"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_10",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "south",
+        "power": "11"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_11",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "south",
+        "power": "12"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_12",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "south",
+        "power": "13"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_13",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "south",
+        "power": "14"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_14",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "south",
+        "power": "15"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_15",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "south",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_light_on",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "south",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_light_off",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "west",
+        "mode": "transmitter"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_base_transmitter",
+        "x": 180,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "west",
+        "mode": "receiver"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_base_receiver",
+        "x": 180,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "west",
+        "power": "0"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_0",
+        "x": 180,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "west",
+        "power": "1"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_1",
+        "x": 180,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "west",
+        "power": "2"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_2",
+        "x": 180,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "west",
+        "power": "3"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_3",
+        "x": 180,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "west",
+        "power": "4"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_4",
+        "x": 180,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "west",
+        "power": "5"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_5",
+        "x": 180,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "west",
+        "power": "6"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_6",
+        "x": 180,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "west",
+        "power": "7"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_7",
+        "x": 180,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "west",
+        "power": "8"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_8",
+        "x": 180,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "west",
+        "power": "9"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_9",
+        "x": 180,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "west",
+        "power": "10"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_10",
+        "x": 180,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "west",
+        "power": "11"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_11",
+        "x": 180,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "west",
+        "power": "12"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_12",
+        "x": 180,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "west",
+        "power": "13"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_13",
+        "x": 180,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "west",
+        "power": "14"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_14",
+        "x": 180,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "west",
+        "power": "15"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_gauge_15",
+        "x": 180,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "west",
+        "lit": "true"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_light_on",
+        "x": 180,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "face": "ceiling",
+        "facing": "west",
+        "lit": "false"
+      },
+      "apply": {
+        "model": "wireless_redstone:block/panel_light_off",
+        "x": 180,
+        "y": 270
+      }
+    }
+  ]
+}

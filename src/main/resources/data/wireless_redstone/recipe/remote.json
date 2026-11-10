@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "P": "wireless_redstone:wireless_panel",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "P",
+    "S"
+  ],
+  "result": {
+    "id": "wireless_redstone:remote"
+  }
+}

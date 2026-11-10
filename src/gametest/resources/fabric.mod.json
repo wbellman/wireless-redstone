@@ -1,0 +1,18 @@
+{
+	"schemaVersion": 1,
+	"id": "wireless_redstone_test",
+	"version": "1.0.0",
+	"name": "Wireless Redstone Tests",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-gametest": [
+			"systems.acolyte.games.wirelessredstone.test.WirelessRedstoneGameTests"
+		],
+		"fabric-client-gametest": [
+			"systems.acolyte.games.wirelessredstone.test.PanelScreenshotTest"
+		]
+	},
+	"depends": {
+		"wireless_redstone": "*"
+	}
+}
